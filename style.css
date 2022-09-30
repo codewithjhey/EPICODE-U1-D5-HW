@@ -19,3 +19,30 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #2622f8;
+}
+
+.about {
+  margin-left: 8%;
+  margin-top: 15%;
+}
+
+.about h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
